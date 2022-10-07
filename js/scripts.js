@@ -80,7 +80,20 @@ $(document).ready(function() {
       "Stay strong! Every day you're growing & evolving into a better, stronger version of who you were yesterday.",
       "You're not crazy nor are you weak, okay? ❤",
       "Some days you'll have setbacks, but just know that tomorrow is a new day with new possibilities.",
-      "Chai bana doon? I know you love Chai ❤"
+      "Chai bana doon? I know you love Chai ❤",
+      "Sometimes it is okay to pretend like everything is fine. Work hard and let’s hope you make it to that point.",
+      "Nothing is permanent, and that includes your hardships too! Chin up and smile, buddy!",
+      "One bad day doesn’t lead to a bad life! Forget the worries and enjoy the laughs, dear best friend!",
+      "Believe in yourself and everything will become a lot easier than it used to be. Make everything worth living for. Love yaa.",
+      "It is okay to fail over and over again but it is not okay to lose hope or lose yourself in the process. The sun will shine upon you at the exact moment it needs to be.",
+      "Don’t lose your sleep over the things you have no control over. Cheer up, friend!",
+      "Keep yourself busy doing all the things that make you feel good about yourself and everything will fall in the line. Your happy face matters to me the most, best friend.",
+      "No matter how hard things may be, it is never going to stay the same. I know that you will be okay, believe in yourself as I do.",
+      "Miseries will not last long in life, dear friend. Keep smiling, and happiness will find its way back to you!",
+      "Once the storm calms down, we see the sun’s rays penetrating through the clouds. In life, joy will always come after difficulties. Do not bear the burden alone, we will overcome everything together. Cheer up!",
+      "When life throws lemon to us, we should learn to make lemonade. It may not be easy but with God’s help, you can turn your sorrow into joy.",
+      "Life is too short and you have all the reasons to celebrate, be happy because with a friend like me who is always there for you.",
+      "Cheer up, my dear. After every storm comes the sun. Happiness is waiting for you ahead."
       ];
 
     var randomfacts = Math.floor(Math.random() * facts.length);
