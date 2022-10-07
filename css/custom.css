@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Coming+Soon&family=Delius&family=Comfortaa&family=Cabin+Sketch&family=Shadows+Into+Light&display=swap');
+
+
+
+body 
+{
+    background: rgb(189, 67, 38);
+    font-family: 'Cabin Sketch', sans-serif;
+    color: #fff;
+    margin: 0 auto;
+    padding: 0 5%;
+    animation:colour 6s linear infinite;
+    -webkit-animation:colour 6s linear infinite;
+    -moz-animation:colour 6s linear infinite;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  
+}
+@-webkit-keyframes colour{
+  0%{
+    background:black
+  }
+
+  40%{
+    background:black
+  }
+
+  80%{
+    background:black
+  }
+
+  100%{
+    background:black
+  }
+
+}
+
+@-moz-keyframes colour{
+  0%{
+    background:#ec6a38
+  }
+
+  40%{
+    background:#ec4038
+  }
+
+  80%{
+    background:#ec9138
+  }
+
+  100%{
+    background:#ec6a38
+  }
+
+}
+
+h1 
+{
+    font-weight: 700;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    font-size: 50px;
+    margin: 1% auto;
+    font-family: 'Shadows Into Light', cursive;
+}
+h4
+{
+  letter-spacing: 3px;
+}
+h6
+{
+  margin: 1em 0 0 0;
+  font-weight: 300;
+  font-family: delius, sans-serif;
+  letter-spacing: 2px;
+}
+
+.container 
+{
+    width: 100%;
+    text-align: center;
+}
+
+.facts-zone p 
+{
+    font-size: 30px;
+    letter-spacing: 2px;
+    margin-top: 20px;
+}
+
+.get-facts
+{
+    display: inline-block;
+}
+.get-facts img 
+{
+    width: 12em;
+    cursor: pointer;
+    transition: 0.2s ease-in;
+}
+.get-facts img:hover
+{
+  transform: scale(1.2);
+}
+
+#facts
+{
+    font-size: 25px;
+    font-family: 'Coming Soon',sans-serif,'Century Gothic';
+    line-height: 2;
+    font-weight: 700;
+    margin: 1% auto;
+}
+
+hr.divider 
+{
+  border-top: 1px solid #f7e8e89c;
+  border-right: none;
+  border-bottom: none;
+  border-left: none;
+  color: #FCD462;
+  overflow: visible;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+  width: 70%;
+}
+
+hr.divider:after {
+  content: "❤";
+  display: inline-block;
+  font-size: 2em;
+  position: relative;
+  padding: 0 0.25em;
+  top: -0.7em;
+}
+
+footer 
+{
+    text-align: center;
+    font-weight: 200;
+    font-size: 25px;
+    width: 100%;
+    min-height: 50px;
+    margin-top: auto;
+    
+}
+
+footer p
+{
+    margin: 3% 0;
+    letter-spacing: 2px;
+}
+#copyright
+{
+    letter-spacing: 4px;
+}
+footer a.social 
+{
+    font-size: 30px;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.2s ease-in-out;
+    -webkit-transition: 0.2s ease-in-out;
+    -o-transition: 0.2s ease-in-out;
+    -moz-transition: 0.2s ease-in-out;
+    -ms-transition: 0.2s ease-in-out;
+    letter-spacing: 4px;
+}
+.social-box a i
+{
+    transition: 0.5s ease-in-out;
+    -webkit-transition: 0.5s ease-in-out;
+    -o-transition: 0.5s ease-in-out;
+    -moz-transition: 0.5s ease-in-out;
+    -ms-transition: 0.5s ease-in-out;
+}
+.social-box a i:hover 
+{
+    color: #000000b5;
+    transform: scale();
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+}
+.goodbye
+{
+    font-family: 'Delius', 'sans-serif';
+    line-height: 1.5;
+    margin: 15px 0;
+}
+.fa-heart
+{
+  color: red;
+}
+
+/* MEDIA QUERIES */
+@media only screen and (max-width: 600px) 
+{
+    h1 
+    {
+        font-size: 30px;
+    }
+    .get-facts img
+    {
+        width: 30%;
+    }
+    #facts 
+    {
+        font-size: 20px;
+    }
+    footer p, footer a.social
+    {
+        font-size: 18px!important;
+    }
+    footer p
+    {
+      margin: 3em 0;
+    }
+}
